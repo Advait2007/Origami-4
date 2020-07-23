@@ -1,0 +1,99 @@
+h1{
+    color:red;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+
+.camel{
+    background-color:lightgreen;
+    display:flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 900;
+}
+.panda{
+    background-color:lightgreen;
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 900;
+}
+
+.pigeon{
+    background-color:lightgreen;
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 1000;
+}
+
+.cicada{
+    background-color:lightgreen;
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.links1{
+    border: solid;
+}
+
+.links2{
+    border: solid;
+}
+
+.links3{
+    border: solid;
+}
+
+.links4{
+    border: solid;
+}
+
+p{
+    text-align: center;   
+    text-align: center;
+    color: black;   
+}
+
+.links{
+    position: relative;
+}
+
+.links p{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+}    
+
+.links:hover img{
+    opacity: 0.33;
+}
+
+.links:hover p{
+    visibility:visible;
+}
